@@ -1,0 +1,7 @@
+<h1>there are {{cnt}} words in your text</h1>
+<a href="{%url 'ag'%}">Start Again</a>
+<p>{{fulltext}}</p>
+{%for i,c in dic %}
+<p>{{i}} - {{c}}</p>
+
+{%endfor%}
